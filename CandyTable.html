@@ -2,28 +2,44 @@
 <html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="../../../../favicon.ico">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Candy Bar Tables Problem">
+    <meta name="author" content="Amy Thompson">
+    <!-- <link rel="icon" href="favicon.ico"> -->
 
-  <title>Candy Bar Tables</title>
+    <title>Candy Bar Tables</title>
 
-  <!-- Bootstrap core CSS -->
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
-    crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
 
-  <!-- Custom styles for this template -->
-  <link href="starter-template.css" rel="stylesheet">
+    <style>
+        body {
+      padding-top: 5rem;
+    }
+  
+    .starter-template {
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    .border-left{
+      border-left:1px solid #dee2e6;
+    }
+
+    .border-right{
+      border-right:1px solid #dee2e6;
+    }
+  </style>
 
 </head>
 
 <body>
 
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Candy Bar Tables</a>
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
       aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -53,113 +69,191 @@
         <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
-    </div>
-  </nav>
+    </div> -->
+    </nav>
 
-  <main role="main" class="container">
+    <main role="main" class="container">
+        <div class="row mb-5">
+            <div class="col">
+                <!-- <h1>Candy Bar Tables</h1> -->
 
-    <div class="starter-template">
-      <h1>Candy Bar Table</h1>
-      <p class="lead">Cool, right?</p>
+                <form>
+                    <div class="form-group">
+                        <label for="numKids">Number of Kids:</label>
+                        <input type="text" class="form-control" id="numKids" placeholder="Number of Kids" value="10">
+                    </div>
 
-      
-      <table class="table">
-        <thead>
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">First</th>
-            <th scope="col">Last</th>
-            <th scope="col">Handle</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">1</th>
-            <td>Mark</td>
-            <td>Otto</td>
-            <td>@mdo</td>
-          </tr>
-          <tr>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>@fat</td>
-          </tr>
-          <tr>
-            <th scope="row">3</th>
-            <td>Larry</td>
-            <td>the Bird</td>
-            <td>@twitter</td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+                    <div class="form-group">
+                        <label for="numCandyBarsTable1">Table 1 number of Candy Bars:</label>
+                        <input type="text" class="form-control" id="numCandyBarsTable1" placeholder="Table 1 number of Candy Bars" value="5">
+                    </div>
 
-  </main><!-- /.container -->
+                    <div class="form-group">
+                        <label for="numCandyBarsTable2">Table 2 number of Candy Bars:</label>
+                        <input type="text" class="form-control" id="numCandyBarsTable2" placeholder="Table 2 number of Candy Bars" value="3">
+                    </div>
 
-  <!-- Bootstrap core JavaScript
-    ================================================== -->
-  <!-- Placed at the end of the document so the pages load faster -->
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-    crossorigin="anonymous"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-    crossorigin="anonymous"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-    crossorigin="anonymous"></script>
-  <script>
+                    <div class="form-group">
+                        <label for="numCandyBarsTable3">Table 3 number of Candy Bars:</label>
+                        <input type="text" class="form-control" id="numCandyBarsTable3" placeholder="Table 3 number of Candy Bars" value="2">
+                    </div>
 
+                    <button id="simulateButton" type="submit" class="btn btn-primary">Simulate</button>
+                </form>
+            </div>
+        </div>
 
-    $(function () {
+        <div class="row">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th class="border-right"></th>
+                            <th scope="colgroup" colspan="2" class="border-right">Table 1</th>
+                            <th scope="colgroup" colspan="2" class="border-right">Table 2</th>
+                            <th scope="colgroup" colspan="2">Table 3</th>
+                        </tr>
+                        <tr>
+                            <th scope="col" class="border-right">Step</th>
+                            <th scope="col"># Kids</th>
+                            <th scope="col" class="border-right"># Candy Bars per Kid</th>
+                            <th scope="col"># Kids</th>
+                            <th scope="col" class="border-right"># Candy Bars per Kid</th>
+                            <th scope="col"># Kids</th>
+                            <th scope="col"># Candy Bars per Kid</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableContents">
+                        <!-- <tr>
+                            <th scope="row" class="border-right">1</th>
+                            <td>1</td>
+                            <td class="border-right">5</td>
+                            <td>0</td>
+                            <td class="border-right">0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr>
+                        <tr>
+                            <th scope="row" class="border-right">2</th>
+                            <td>2</td>
+                            <td class="border-right">2.5</td>
+                            <td>0</td>
+                            <td class="border-right">0</td>
+                            <td>0</td>
+                            <td>0</td>
+                        </tr> -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
 
-      let numKids = 12;
-      let kids = [];
-      let tables = [{ candyBars: 5, numKids: 0 }, { candyBars: 3, numKids: 0 }, { candyBars: 2, numKids: 0 }];
-      for (var i = 0; i < numKids; i++) {
-        enterRoom(i + 1, tables, kids);
-        printStatus(tables);
-      }
-    });
+    </main><!-- /.container -->
 
-    function enterRoom(studentNumber, tables, kids) {
-      //debugger;
-      let bestTable = determineBestTable(tables);
-      tables[bestTable.tableNum - 1].numKids++;
-    }
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+    <script>
+        $(function () {
+            $('#simulateButton').on('click', (ev) => {
+                ev.preventDefault();
+                $('#simulateButton').prop('disabled', true);
+                console.clear();
+                $('#tableContents').empty();
+                console.log('starting simulation');
+                try {
+                    var numKids = parseFloat($('#numKids').val());
+                    var table1Bars = parseFloat($('#numCandyBarsTable1').val());
+                    var table2Bars = parseFloat($('#numCandyBarsTable2').val());
+                    var table3Bars = parseFloat($('#numCandyBarsTable3').val());
+                    runSimulation(numKids, table1Bars, table2Bars, table3Bars);
+                }
+                catch (err) {
+                    console.error('error running simulation', err);
+                }
+                finally {
+                    $('#simulateButton').prop('disabled', false);
+                    console.log('simulation complete');
+                }
+            });
+        });
 
-    function determineBestTable(tables) {
-      let tableCalculations = [];
-      for (var i = 0; i < tables.length; i++) {
-        let numKids = tables[i].numKids + 1;
-        let calc = tables[i].candyBars / numKids;
-        tableCalculations.push({ tableNum: i + 1, calc });
-      }
-      let highest = { tableNum: 0, calc: 0 };
-      for (var i = 0; i < tableCalculations.length; i++) {
-        if (tableCalculations[i].calc > highest.calc) {
-          highest = { tableNum: tableCalculations[i].tableNum, calc: tableCalculations[i].calc };
+        function runSimulation(numKids, table1Bars, table2Bars, table3Bars) {
+            var kids = [];
+            var tables = [{ candyBars: table1Bars, numKids: 0 }, { candyBars: table2Bars, numKids: 0 }, { candyBars: table3Bars, numKids: 0 }];
+            for (var i = 0; i < numKids; i++) {
+                addTableRow(i, tables, bestTableIndex);
+                var bestTableIndex = enterRoom(i + 1, tables, kids);
+                printStatus(tables);
+            }
+            addTableRow(i, tables);
         }
-      }
-      return highest;
-    }
 
-    function printStatus(tables) {
-      for (var i = 0; i < tables.length; i++) {
-        //console.log('Table #' + (i + 1) + ' has this number of candybars: ' + tables[i].candyBars);
-        //console.log(tables[i]);
-        if (tables[i].numKids === 0) {
-          console.log('Table ' + (i + 1) + ' has 0 kids');
+        function addTableRow(stepNum, tables, bestTableIndex) {
+            // if (stepNum == 0) {
+            //     return;
+            // }
+            var table1CandyBarsPerKid = tables[0].numKids > 0 ? tables[0].candyBars / tables[0].numKids : 'NA';
+            var table2CandyBarsPerKid = tables[1].numKids > 0 ? tables[1].candyBars / tables[1].numKids : 'NA';
+            var table3CandyBarsPerKid = tables[2].numKids > 0 ? tables[2].candyBars / tables[2].numKids : 'NA';
+            
+            var table1Class = bestTableIndex == 0 ? 'bg-success' : '';
+            var table2Class = bestTableIndex == 1 ? 'bg-success' : '';
+            var table3Class = bestTableIndex == 2 ? 'bg-success' : '';
+            
+            var row = `
+                <tr>
+                    <th scope="row" class="border-right">${stepNum}</th>
+                    <td class="${table1Class}">${tables[0].numKids}</td>
+                    <td class="border-right">${table1CandyBarsPerKid}</td>
+                    <td class="${table2Class}">${tables[1].numKids}</td>
+                    <td class="border-right">${table2CandyBarsPerKid}</td>
+                    <td class="${table3Class}">${tables[2].numKids}</td>
+                    <td>${table3CandyBarsPerKid}</td>
+                </tr>
+            `;
+            $('#tableContents').append(row);
         }
-        else {
-          let candyBarAmount = tables[i].candyBars / tables[i].numKids;
-          let message = 'Table ' + (i + 1) + ' has ' + tables[i].numKids + ' Kids and each kid gets ' + candyBarAmount + ' candy bar';
-          console.log(message);
+
+        function enterRoom(studentNumber, tables, kids) {
+            var bestTableIndex = determineBestTableIndex(tables);
+            tables[bestTableIndex].numKids++;
+            return bestTableIndex;
         }
-      }
-      console.log('-----------');
-    }
 
+        function determineBestTableIndex(tables) {
+            var tableCalculations = [];
+            for (var i = 0; i < tables.length; i++) {
+                var numKids = tables[i].numKids + 1;
+                var candyBarsPerKid = tables[i].candyBars / numKids;
+                tableCalculations.push(candyBarsPerKid);
+            }
+            var highest = { index: 0, candyBarsPerKid: tableCalculations[0] };
+            for (var i = 1; i < tableCalculations.length; i++) {
+                if (tableCalculations[i] > highest.candyBarsPerKid) {
+                    highest = { index: i, calc: tableCalculations[i] };
+                }
+            }
+            return highest.index;
+        }
 
-  </script>
+        function printStatus(tables) {
+            for (var i = 0; i < tables.length; i++) {
+                if (tables[i].numKids === 0) {
+                    console.log('Table ' + (i + 1) + ' has 0 kids');
+                }
+                else {
+                    var candyBarAmount = tables[i].candyBars / tables[i].numKids;
+                    var message = 'Table ' + (i + 1) + ' has ' + tables[i].numKids + ' Kids and each kid gets ' + candyBarAmount + ' candy bar';
+                    console.log(message);
+                }
+            }
+            console.log('-----------');
+        }
+
+    </script>
 </body>
 
 </html>
